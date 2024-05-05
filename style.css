@@ -174,7 +174,7 @@ text-decoration: line-through;
 @media screen and (max-width: 768px) {
     .container {
         width: 80%;
-        max-height: 80vh;
+        max-height: 70vh;
     }
 
     .heading {
