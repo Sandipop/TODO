@@ -113,14 +113,16 @@ ul li{
 }
 ul li::before{
     content: '⬜';
-    font-size: 15px;
     position: absolute;
-    
-    top: 14px;
-    left: 1px;
-    /* background-color: #d4d4d4;
-     */
+    top: 5px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
     cursor: pointer;
+
 }
 
 ul li #close{
@@ -173,7 +175,7 @@ text-decoration: line-through;
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 60%;
+        width: 80%;
         max-height: 70vh;
     }
 
